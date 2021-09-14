@@ -1,0 +1,40 @@
+name: rps_ui_e1
+description: Flutter UI Collection - Design 1
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  intl: ^0.16.1
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  flutter_hooks: ^0.18.0
+  hooks_riverpod: ^1.0.0-dev.7
+  flutter_riverpod: ^1.0.0-dev.7
+  persistent_bottom_nav_bar: ^4.0.2
+  flutter_swiper_null_safety: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/games/
+    - assets/movies/
+    - assets/tv/
+
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Bold.ttf
+        - asset: assets/fonts/Montserrat-Medium.ttf
+        - asset: assets/fonts/Montserrat-Regular.ttf
